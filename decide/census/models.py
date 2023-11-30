@@ -7,3 +7,4 @@ class Census(models.Model):
 
     class Meta:
         unique_together = (('voter_id'),)
+     
